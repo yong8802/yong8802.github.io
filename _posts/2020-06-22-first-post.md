@@ -1,6 +1,7 @@
 ---
-title: "React typescript App 생성"
-date: 2020-07-07 13:54:28 -0400
+layout: post
+title: React typescript App 생성
+comments: true
 categories: React
 ---
 1. ```npx create-react-app [폴더명] --typescript```
