@@ -2,7 +2,8 @@
 layout: post
 title: React typescript App 생성
 comments: true
-categories: React
+categories: [React]
+tags: [React, Typescript]
 ---
 1. ```npx create-react-app [폴더명] --typescript```
 2. ```npm install --save @types/react @types/react-dom``` // 타입 정의
