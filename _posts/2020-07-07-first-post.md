@@ -33,8 +33,8 @@ echo 'export PATH="$(yarn global bin):$PATH"' >> ~/.bash_profile
 echo 'export PATH="$(yarn global bin):$PATH"' >> ~/.bashrc
 ```
 ##### 프로젝트 생성 #####
-``` create-react-app [프로젝트명]```
 ```$xslt
+create-react-app [프로젝트명]
 cd [프로젝트명]
 yarn start
 ```
