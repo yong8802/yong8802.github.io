@@ -50,5 +50,30 @@ npm install --save-dev typescript //타입스크립트 패키지 설치
 npx typescript --init //타입스크립트 설정파일 생성
 ```
 
+tsconfig.js 파일 수정
+```$xslt
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5", // 사용할 ECMAScript 버전 설정
+    "jsx": "react", // jsx 지원
+    "module": "esnext", // 모듈 설정
+    "moduleResolution": "node", // 모듈 해석 방식 설정
+    "emitDecoratorMetadata": true, // @TODO 테스트 필요
+    "experimentalDecorators": true, // ES Decorator에 대한 실험적 기능 사용 여부
+    "declaration": false, // .d.ts파일의 생성 여부
+    "noImplicitAny": false, // any 타입 금지
+    "noImplicitReturns": false, // 함수의 모든 경로가 값을 반환하지 않으면 에러 발생
+    "noUnusedLocals": true, // 사용 안 된 지역 변수에 대한 오류 보고 여부
+    "removeComments": true, // 주석 삭제
+    "strictNullChecks": false, // null과 undefined 타입 구분 여부
+    "resolveJsonModule": true,
+    "esModuleInterop": true, // https://
+    "outDir": "build", // 출력할 디렉토리
+    "lib": ["es6", "es7", "dom"], // 컴파일에 포함 될 라이브러리 파일 목록
+    "baseUrl": "src", // Non-relativ 모듈 혹은 paths 옵션의 기준 디렉토리
+  }
+}
+```
 
 
