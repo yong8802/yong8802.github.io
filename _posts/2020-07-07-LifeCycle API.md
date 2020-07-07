@@ -7,6 +7,7 @@ tags: [React]
 ---
 
 **<h3>컴포넌트 초기 생성</h3>**
+
 **constructor**
 ##### 컴포넌트 생성자 함수 - 컴포넌트가 새로 만들어질 때마다 호출 #####
 ```$xslt
@@ -26,6 +27,7 @@ componentDidMount() {
 <br/>
 
 **<h3>컴포넌트 업데이트</h3>**
+
 **staticgetDerivedStateFromProps(nextProps, prevState)**
 ##### - props로 받온 값을 state로 동기화 할 때 사용 #####
 ##### - 컴포넌트가 마운팅 됬을 때와 업데이트 됬을 경우 호출 #####
@@ -36,5 +38,14 @@ componentDidMount() {
 ```$xslt
 staticgetDerivedStateFromProps(nextProps, prevState) {
     // render() 이전의 호출이기 때문에 변경 된 props 데이터를 state에 반영하는 작업을 처리
+}
+```
+
+**shouldComponentUpdate(nextProps, nextState)**
+##### 컴포넌트를 최적화 할 때 사용 #####
+##### 기본적으로 true를 반환. 불필요한 렌더링을 없애는데 사용 #####
+```$xslt
+shouldComponentUpdate(nextProps, nextState) {
+    // return false 이면 업데이트 안 함
 }
 ```
