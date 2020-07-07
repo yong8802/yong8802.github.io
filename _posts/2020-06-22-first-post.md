@@ -3,10 +3,10 @@ title: "React typescript App 생성"
 date: 2020-07-07 13:54:28 -0400
 categories: React
 ---
-1. npx create-react-app [폴더명] --typescript
-2. npm install --save @types/react @types/react-dom // 타입 정의
-3. npm install --save-dev typescript //타입스크립트 패키지 설치
-4. npx typescript --init 타입스크립트 설정파일 생성
+1. ```npx create-react-app [폴더명] --typescript```
+2. ```npm install --save @types/react @types/react-dom``` // 타입 정의
+3. ```npm install --save-dev typescript``` //타입스크립트 패키지 설치
+4. ```npx typescript --init``` //타입스크립트 설정파일 생성
 
 ​```python
 def print_hi(name):
