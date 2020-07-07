@@ -6,7 +6,7 @@ categories: [React]
 tags: [React]
 ---
 
-<h3>컴포넌트 초기 생성</h3>
+<h3>**컴포넌트 초기 생성**</h3>
 **constructor**
 #####컴포넌트 생성자 함수 - 컴포넌트가 새로 만들어질 때마다 호출 #####
 ```$xslt
@@ -25,7 +25,7 @@ componentDidMount() {
 ```
 <br/>
 
-<h3>컴포넌트 업데이트</h3>
+<h3>**컴포넌트 업데이트**</h3>
 **staticgetDerivedStateFromProps(nextProps, prevState)**
 ##### - props로 받온 값을 state로 동기화 할 때 사용 #####
 ##### - 컴포넌트가 마운팅 됬을 때와 업데이트 됬을 경우 호출 #####

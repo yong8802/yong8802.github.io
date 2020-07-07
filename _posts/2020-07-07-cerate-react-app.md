@@ -6,7 +6,7 @@ categories: [React]
 tags: [React, Typescript]
 ---
 
-<h3>프로젝트 생성 준비</h3>
+<h3>**프로젝트 생성 준비**</h3>
 1. <span style="color:#ed3249">Node.js</span> - webpack과 babel같은 도구들이 javascript 런타임인 node.js 기반으로 만들어져 있기 때문에 해당 도구들을 사용하기 위해 설치
 2. <span style="color:#ed3249">Yarn</span> - npm보다 속도와 캐싱이 빠르다.
 
@@ -16,7 +16,7 @@ tags: [React, Typescript]
 
 <br/>
 
-<h4>React 프로젝트 생성</h4>
+<h4>**React 프로젝트 생성**</h4>
 ##### npm #####
 ```$xslt
 $ npm install -g create-react-app
@@ -41,7 +41,8 @@ yarn start
 
 
 <br/>
-<h3>React Typescript 프로젝트 생성</h3>
+
+<h3>**React Typescript 프로젝트 생성**</h3>
 
 ```$xslt
 npx create-react-app [폴더명] --typescript
