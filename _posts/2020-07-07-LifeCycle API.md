@@ -88,6 +88,10 @@ getSnapshotBeforeUpdate(prevProps, prevState) {
 ```
 
 **componentDidUpdate(prevProps, prevState, snapshot)**
+##### render() 호출 뒤 발생
+##### 이 시점에서는 this.props와 this.state가 바뀌어 있음
+##### 파라미터를 통해 prevProps와 prevState 조회 가능
+##### getSnapshotBeforeUpdate에서 반환한 snapshot은 세번째 파라미터로 가져옴
 ```javascript
 componentDidUpdate(prevProps, prevState, snapshot) {
 
