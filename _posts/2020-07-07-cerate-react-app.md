@@ -37,6 +37,7 @@ echo 'export PATH="$(yarn global bin):$PATH"' >> ~/.bashrc
 ```
 
 ##### 프로젝트 생성 #####
+
 ```shell script
 create-react-app [프로젝트명]
 cd [프로젝트명]
@@ -55,7 +56,8 @@ npm install --save-dev typescript //타입스크립트 패키지 설치
 npx typescript --init //타입스크립트 설정파일 생성
 ```
 
-tsconfig.js 파일 수정
+##### tsconfig.js 파일 수정
+
 ```js
 {
   "compilerOptions": {
