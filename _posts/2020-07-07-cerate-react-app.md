@@ -19,14 +19,17 @@ tags: [React, Typescript]
 <h4> React 프로젝트 생성 </h4>
 
 ##### npm
+
 ```shell script
 $ npm install -g create-react-app
 ```
 
 ##### yarn
+
 ```shell script
 $ yarn add -g create-react-app
 ```
+
 ##### linux나 maxOS에서 nvm을 통하여 node.js를 설치 했을 경우 yarn Path 입력
 
 ```shell script
