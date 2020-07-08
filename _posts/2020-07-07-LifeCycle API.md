@@ -97,3 +97,14 @@ componentDidUpdate(prevProps, prevState, snapshot) {
 
 }
 ```
+
+<br/>
+
+<h3>컴포넌트 제거</h3>
+**componentWillUnmount
+##### 이벤트 제거 및 dispose, clearTimeout 사용
+```js
+componentWillUnmount() {
+
+}
+```
