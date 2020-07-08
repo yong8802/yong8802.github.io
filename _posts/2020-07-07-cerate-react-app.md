@@ -19,19 +19,19 @@ tags: [React, Typescript]
 <h4> React 프로젝트 생성 </h4>
 
 ##### npm
-```shell script
-    $ npm install -g create-react-app
+```js
+$ npm install -g create-react-app
 ```
 
 ##### yarn
 
-```shell script
+```js
   $ yarn add -g create-react-app
 ```
 
 ##### linux나 maxOS에서 nvm을 통하여 node.js를 설치 했을 경우 yarn Path 입력
 
-```shell script
+```js
 # macOS:
 echo 'export PATH="$(yarn global bin):$PATH"' >> ~/.bash_profile
 # Linux:
@@ -40,7 +40,7 @@ echo 'export PATH="$(yarn global bin):$PATH"' >> ~/.bashrc
 
 ##### 프로젝트 생성 #####
 
-```shell script
+```js
 create-react-app [프로젝트명]
 cd [프로젝트명]
 yarn start
@@ -51,7 +51,7 @@ yarn start
 
 <h3>React Typescript 프로젝트 생성</h3>
 
-```shell script
+```js
 npx create-react-app [폴더명] --typescript
 npm install --save @types/react @types/react-dom // 타입 정의
 npm install --save-dev typescript //타입스크립트 패키지 설치
