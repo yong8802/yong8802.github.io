@@ -26,23 +26,23 @@ $ npm install -g create-react-app
 ##### yarn
 
 ```js
-  $ yarn add -g create-react-app
+$ yarn add -g create-react-app
 ```
 
 ##### linux나 maxOS에서 nvm을 통하여 node.js를 설치 했을 경우 yarn Path 입력
 
 ```js
-# macOS:
+// macOS:
 echo 'export PATH="$(yarn global bin):$PATH"' >> ~/.bash_profile
-# Linux:
+// Linux:
 echo 'export PATH="$(yarn global bin):$PATH"' >> ~/.bashrc
 ```
 
 ##### 프로젝트 생성 #####
 
 ```js
-create-react-app [프로젝트명]
-cd [프로젝트명]
+create-react-app testApp   // [프로젝트명]
+cd testApp // [프로젝트명]
 yarn start
 ```
 
