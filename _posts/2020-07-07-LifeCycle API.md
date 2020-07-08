@@ -58,7 +58,7 @@ shouldComponentUpdate(nextProps, nextState) {
 4. componentDidUpdate
 ##### DOM 변화가 일어나기 직전의 DOM 상태를 가져오고, 리턴 값은 componentDidUpdate에서 3번째 파라미터로 받아 올 수 있음
 
-```$xslt
+```javascript
 getSnapshotBeforeUpdate(prevProps, prevState) {
     // DOM 업데이트가 일어나기 직전의 시점입니다.
     // 새 데이터가 상단에 추가되어도 스크롤바를 유지해보겠습니다.
